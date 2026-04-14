@@ -1,0 +1,66 @@
+{
+  "world": "冰山效应的世界",
+  "version": "1.1",
+  "dimensions": ["visibility"],
+  "characters": [
+    {
+      "id": "chen-yuxuan",
+      "name": "陈宇轩",
+      "created": "GL 172年",
+      "updated": "GL 172年",
+      "status": "active",
+      "role": "真相携带者",
+      "layerTags": ["visible"],
+      "note": "不知情的真相携带者——身处可见层，持有不可见层的关键信息。"
+    },
+    {
+      "id": "shen-li",
+      "name": "沈璃",
+      "created": "GL 172年",
+      "updated": "GL 172年",
+      "status": "active",
+      "role": "守门人",
+      "layerTags": ["invisible"]
+    },
+    {
+      "id": "bridge",
+      "name": "陆深（桥接者）",
+      "created": "GL 172年",
+      "updated": "GL 172年",
+      "status": "active",
+      "role": "信息掮客 / 暗网创始人",
+      "layerTags": ["visible", "invisible"],
+      "note": "自由撰稿人掩护下的暗网桥接网络核心，在可见层与不可见层之间自由穿行，被所有势力同时利用和提防。"
+    },
+    {
+      "id": "ghost",
+      "name": "林镜（幽灵）",
+      "created": "GL 172年",
+      "updated": "GL 172年",
+      "status": "active",
+      "role": "旧盟友 / 信息掮客",
+      "layerTags": ["invisible"],
+      "note": "GL 165年因背叛分道扬镳，真实代号「幽灵」，意为「应当消失却仍然存在」。被沈璃强制抹去身份后以假名在多城邦间流动，掌握初代理事会核心机密，是「无法埋葬的变数」。"
+    },
+    {
+      "id": "qin-zhao",
+      "name": "秦昭（织网者）",
+      "created": "GL 172年",
+      "updated": "GL 172年",
+      "status": "active",
+      "role": "信息掮客 / 独立调查人",
+      "layerTags": ["visible", "invisible"],
+      "note": "表面经营「昭信数据工作室」，真实身份为活跃于两层之间的自由行动者，掌握大量关键信息碎片，是离核心秘密最近的凡人，核心三角之一。"
+    },
+    {
+      "id": "wraith",
+      "name": "幽灵（Wraith）",
+      "created": "GL 172年",
+      "updated": "GL 172年",
+      "status": "active",
+      "role": "残余变量 / 镜网元老",
+      "layerTags": ["invisible"],
+      "note": "男性，约54岁，GL 120年代镜网核心架构共同设计者之一，陈远（陈宇轩之父）的搭档。GL 169年被宣告「被消失」但从未真正消失，唯一掌握初代理事会完整名单的存活者，丢失了GL 167-170年约3年记忆。"
+    }
+  ]
+}
