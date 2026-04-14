@@ -1,0 +1,108 @@
+{
+  "world": "冰山效应的世界",
+  "version": "1.0",
+  "layer": "visible",
+  "type": "federation",
+  "description": "可见层政治主体，由多个主权城邦组成的联邦体制，共同应对不可见层的存在。",
+  "cities": [
+    {
+      "id": "starfire",
+      "name": "星火城邦",
+      "type": "capital",
+      "status": "active",
+      "order": 1
+    },
+    {
+      "id": "mistfall",
+      "name": "雾隐城邦",
+      "type": "trade",
+      "status": "active",
+      "order": 2
+    },
+    {
+      "id": "abyssport",
+      "name": "深渊城邦",
+      "type": "frontier",
+      "status": "active",
+      "order": 3
+    },
+    {
+      "id": "observatory",
+      "name": "观测者之境",
+      "type": "neutral",
+      "status": "active",
+      "order": 4
+    }
+  ],
+  "hidden_infrastructure": [
+    {
+      "id": "archive-of-lost",
+      "name": "失落档案馆",
+      "type": "archive",
+      "status": "active"
+    },
+    {
+      "id": "the-gate",
+      "name": "闸门",
+      "type": "containment",
+      "status": "active"
+    },
+    {
+      "id": "dawn-site",
+      "name": "黎明事件遗址",
+      "type": "memorial",
+      "status": "restricted"
+    },
+    {
+      "id": "mirror-index-site",
+      "name": "镜鉴安息地",
+      "type": "artifact",
+      "status": "restricted"
+    }
+  ],
+  "mirror_network_sites": [
+    {
+      "id": "core-alpha",
+      "name": "核心节点α（星火深层）",
+      "type": "server_cluster",
+      "city": "starfire",
+      "status": "active"
+    },
+    {
+      "id": "node-beta",
+      "name": "节点β（雾隐水线）",
+      "type": "server_cluster",
+      "city": "mistfall",
+      "status": "active"
+    },
+    {
+      "id": "node-gamma",
+      "name": "节点γ（深渊盲区）",
+      "type": "server_cluster",
+      "city": "abyssport",
+      "status": "active"
+    },
+    {
+      "id": "bridge-station",
+      "name": "桥接者中继站",
+      "type": "relay",
+      "status": "active"
+    }
+  ],
+  "narrative_locations": [
+    {
+      "id": "boundary-waters",
+      "name": "边界水域",
+      "type": "event",
+      "description": "陈宇轩发现异常数据的地点，两层势力交汇的敏感地带。"
+    },
+    {
+      "id": "zhaoxin-studio",
+      "name": "昭信数据工作室",
+      "type": "safehouse",
+      "description": "秦昭的掩护据点，两层之间的情报枢纽。"
+    }
+  ],
+  "created": "GL 172年",
+  "updated": "GL 172年"
+}
