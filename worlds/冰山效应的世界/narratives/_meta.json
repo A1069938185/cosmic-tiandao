@@ -1,0 +1,13 @@
+{
+  "world": "冰山效应的世界",
+  "version": "1.0",
+  "narratives": [
+    {
+      "id": "iceberg-first-contact",
+      "title": "冰山初触",
+      "created": "GL 172年",
+      "status": "active",
+      "synopsis": "真相携带者陈宇轩与守门人沈璃在可见层与不可见层的交界处首次相遇，两条命运线正式交汇。"
+    }
+  ]
+}
